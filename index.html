@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/Css/Estilo.css" />
+  </head>
+  <body>
+    <!-- Menu Encabezado -->
+    <div class="contenedor-encabezado">
+      <header>
+        <div class="logo">
+          <a href="#"> SNAYDER </a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#inicio" onclick="seleccionar()"> Inicio </a>
+            </li>
+            <li>
+              <a href="#sobremi" onclick="seleccionar()"> Sobre Mi </a>
+            </li>
+            <li>
+              <a href="#skills" onclick="seleccionar()"> Skills </a>
+            </li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()"> Curriculum </a>
+            </li>
+            <li>
+              <a href="#portafolio" onclick="seleccionar()"> Portafolio </a>
+            </li>
+            <li>
+              <a href="#contacto" onclick="seleccionar()"> Contacto </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-sensibilidad" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="/Img/Yo6.enc" alt="" />
+        </div>
+        <h1>SNAYDER CEDEÑO</h1>
+        <h2>Ingeniero en Software - FreeLance</h2>
+        <div class="redes">
+          <a href="https://www.facebook.com/snayderCJYT/">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://instagram.com/snaydercyt?igshid=OGQ5ZDc2ODk2ZA==">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/SnayderCJ">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre mi</h2>
+        <p>
+          <span> Hola, Soy Snayder Cedeño. </span> Mi nombre es Snayder | 19 años, soy de Ecuador. Me dedico a la Programación en mi tiempo libre, aspiro a aprender todas las tecnologías 🎮💻.
+        </p>
+
+        <div class="fila">
+          <!-- DATOS PERSONALES -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong> Cumpleaños </strong>
+                28-05-2004
+              </li>
+              <li>
+                <strong> Telefono </strong>
+                +593 99254571
+              </li>
+              <li>
+                <strong> Email </strong>
+                Cedenosnyder@gmail.com
+              </li>
+              <li>
+                <strong> Website </strong>
+                (Sin pagina web con dominio aun)
+              </li>
+              <li>
+                <strong> Direccion </strong>
+                Guayaquil, Ecuador
+              </li>
+              <li>
+                <strong> Cargo </strong>
+                <span> VACIO </span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- INTERESES -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span> JUEGOS </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span> MUSICA </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane-departure"></i>
+                <span> VIAJAR </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span> PROGRAMAR </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-futbol"></i>
+                <span> DEPORTE </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span> LIBROS </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span> AUTOS </span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span> FOTOS </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a href="/MiniProyectos/Curriculum - SnayderC.pdf" download="Curriculum - SnayderC">
+          Descargar CV <i class="fa-solid fa-download"></i></a>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- TECHNICAL SKILL  -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill">
+                <div class="progreso javascript">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> HTML </span>
+              <div class="barra-skill">
+                <div class="progreso html">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> CSS </span>
+              <div class="barra-skill">
+                <div class="progreso css">
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> PhotoShop </span>
+              <div class="barra-skill">
+                <div class="progreso photoshop">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> Python </span>
+              <div class="barra-skill">
+                <div class="progreso python">
+                  <span>10%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- PROFESSIONAL SKILLS -->
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Comunicacion</span>
+              <div class="barra-skill">
+                <div class="progreso comunicacion">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> Trabajo en Equipo </span>
+              <div class="barra-skill">
+                <div class="progreso trabajo-en-equipo">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> Creatividad </span>
+              <div class="barra-skill">
+                <div class="progreso creatividad">
+                  <span>99%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> Dedicacion </span>
+              <div class="barra-skill">
+                <div class="progreso dedicacion">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span> Gestion de Proyectos </span>
+              <div class="barra-skill">
+                <div class="progreso gestion-de-proyectos">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educacion</h3>
+            <div class="item izq">
+              <h4>Ingenieria en Software</h4>
+              <span class="casa"> Universidad Estatal de Milagro </span>
+              <span class="fecha"> 2022 - 2024 </span>
+              <p> 2 nivel de la carrera de Ing en Software</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Ingenieria en Software</h4>
+              <span class="casa"> Universidad Estatal de Milagro </span>
+              <span class="fecha"> 2022 - 2024 </span>
+              <p>Curso de JavaScript</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Ingenieria en Software</h4>
+              <span class="casa"> Universidad Estatal de Milagro </span>
+              <span class="fecha"> 2022 - 2024 </span>
+              <p>Curso de HTML y CSS</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col derecha">
+            <h3>Experiencia</h3>
+            <div class="item der">
+              <h4>Web Developer</h4>
+              <span class="casa"> --- </span>
+              <span class="fecha"> 2022 / --- </span>
+                <p> Me gusta crear Paginas Web con JavaScript, Css y Html </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+
+            <div class="item der">
+              <h4>Freelance </h4>
+              <span class="casa"> ---- </span>
+              <span class="fecha"> 2022/ --- </span>
+              <p> Me dedico a crear Mini Proyectos para la experiencia de mi mismo y crecer como desarrollador, de esta manera trabajo en un horario organizado incluyendo mis tiempos libres para poder programar.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+
+            <!-- <div class="item der">
+              <h4>Front Developer</h4>
+              <span class="casa"> Nombre de trabajo o empresa </span>
+              <span class="fecha"> fecha de inicio y terminacion </span>
+              <p>Acerca de tu experiencia xd</p> -->
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+      <div class="contenido-seccion">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <a href="/MiniProyectos/Juego del 21 Cartas/" download="Juego del 21 - SnayderC">
+            <img src="/Img/p1. diseño vectorial" alt="" />
+            <div class="overlay">
+              <h3> Juego del 21</h3>
+              <p> Juego del 21</p>
+            </div></a>
+          </div>
+
+          <div class="proyecto">
+            <a href="/MiniProyectos/Pagina Web con Ejercicios - Menu/" download="Pagina Web - Menu - SnayderC">
+            <img src="/img/p2.png" alt="" />
+            <div class="overlay">
+              <h3> Pagina Web</h3>
+              <p> Menu con Ejercicios </p>
+            </div></a>
+          </div>
+
+          <div class="proyecto">
+            <a href="/MiniProyectos/Juego de Adivinanza/" download="Juego de Adivinanza - SnayderC">
+            <img src="/Img/p3.jpg" alt="" />
+            <div class="overlay">
+              <h3> Juego de Adivinanza </h3>
+              <p> Adivinanza</p>
+            </div></a>
+          </div>
+
+          <div class="proyecto">
+            <a href="/MiniProyectos/Calculadora - SnayderC/" download="Caculadora Basica - SnayderC">
+            <img src="/Img/p4.jpg" alt="" />
+            <div class="overlay">
+              <h3> Calculadora </h3>
+              <p> Calculadora Basica </p>
+            </div></a>
+          </div>
+
+          <div class="proyecto">
+            <img src="/Img/p5. - Medical FUI _ Screen graphics _ 2020, Jan Gryc" alt="" />
+            <div class="overlay">
+              <h3> -----</h3>
+              <p>----</p>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <img src="/Img/p6.gif" alt="" />
+            <div class="overlay">
+              <h3> Pagina Web </h3>
+              <p> Floreria Isfor </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2> CONTACTO </h2>
+        <div class="fila">
+          <!-- FORMULARIO -->
+          <div class="col">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Numero Telefonico">
+            <input type="text" placeholder="Direccion">
+            <input type="text" placeholder="Tema">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button>
+              Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- MAPA -->
+          <div class="col">
+            <img src="/Img/ubicacion.jpeg" alt="">
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Ecuador - Guayaquil, Av, Casuarina
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Llamanos: +593 - 999254571
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: Cedenosnyder@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+      <div class="redes">
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+      </div>
+    </footer>
+
+    <script src="/Js/main.js"></script>
+  </body>
+</html>
